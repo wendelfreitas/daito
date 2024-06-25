@@ -1,6 +1,7 @@
 {
   "extends": "@daito/typescript-config/react-library.json",
   "compilerOptions": {
+    "types": ["@testing-library/jest-dom", "jest"],
     "outDir": "dist",
     "module": "esnext",
     "moduleResolution": "Node"
