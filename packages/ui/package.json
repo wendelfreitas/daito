@@ -5,7 +5,7 @@
   "main": "./src/index.ts",
   "types": "./src/index.ts",
   "scripts": {
-    "lint": "eslint . --max-warnings 0",
+    "lint": "eslint src --max-warnings 0",
     "generate:component": "turbo gen react-component",
     "typecheck": "tsc --project tsconfig.json --noEmit",
     "test": "jest",
