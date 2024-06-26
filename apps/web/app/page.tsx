@@ -48,6 +48,8 @@ export default function Home() {
             </a>
           </div>
           <Button>Open</Button>
+          <Button variant="danger">Open</Button>
+          <Button variant="outline">Open</Button>
         </main>
         <footer className={styles.footer}>
           <a

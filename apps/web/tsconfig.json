@@ -1,11 +1,13 @@
 {
   "extends": "@daito/typescript-config/nextjs.json",
   "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
     "plugins": [
       {
         "name": "next"
       }
     ],
+    "module": "Node16",
     "moduleResolution": "Node16"
   },
   "include": [
