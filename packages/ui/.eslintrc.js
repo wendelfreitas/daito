@@ -4,7 +4,7 @@ module.exports = {
     jest: true,
   },
   root: true,
-  extends: ['@daito/eslint-config/react-internal.js'],
+  extends: ['@daito/eslint-config/react-internal.js', 'plugin:storybook/recommended'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     project: './tsconfig.lint.json',
