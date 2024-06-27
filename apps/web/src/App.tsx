@@ -3,10 +3,11 @@ import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import './App.css';
 import { Button, ThemeProvider } from '@daito/ui';
+import { useHelloWorld } from '@daito/hooks';
 
 function App() {
+  const name = useHelloWorld();
   const [count, setCount] = useState(0);
-
   return (
     <ThemeProvider>
       <div className="flex justify-between">
@@ -17,12 +18,12 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>{name}</h1>
       <div className="card">
         <Button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </Button>
-        <p>
+        <p className="mt-10">
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
       </div>
