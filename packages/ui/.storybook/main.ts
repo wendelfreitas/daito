@@ -18,7 +18,7 @@ const config: StorybookConfig = {
     getAbsolutePath('@storybook/addon-essentials'),
     getAbsolutePath('@chromatic-com/storybook'),
     getAbsolutePath('@storybook/addon-interactions'),
-    getAbsolutePath('@storybook/addon-themes'),
+    getAbsolutePath('@storybook/addon-a11y'),
     {
       name: '@storybook/addon-styling-webpack',
 
@@ -46,6 +46,7 @@ const config: StorybookConfig = {
         ],
       },
     },
+    getAbsolutePath('@storybook/addon-themes'),
   ],
   swc: () => ({
     jsc: {

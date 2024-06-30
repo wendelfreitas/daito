@@ -13,7 +13,7 @@ export default meta;
 export const Default: StoryFn = () => (
   <div className="grid w-full max-w-sm items-center gap-1.5">
     <Label htmlFor="email">Email</Label>
-    <Input type="email" id="email" placeholder="Email" />
+    <Input type="email" id="email" placeholder="E-mail" />
   </div>
 );
 

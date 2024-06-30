@@ -2,10 +2,26 @@ import { StoryFn, Meta } from '@storybook/react';
 
 import { Button, ButtonProps } from './Button';
 
-const meta: Meta = {
+/**
+ * These stories showcase the button
+ */
+const meta: Meta<ButtonProps> = {
   title: 'Components/Button',
   tags: ['autodocs'],
-
+  argTypes: {
+    variant: {
+      description: 'That shows the 5 variant types',
+      options: ['primary', 'secondary', 'outline', 'danger', 'link'],
+      control: {
+        type: 'radio',
+      },
+    },
+    asChild: {
+      table: {
+        disable: true,
+      },
+    },
+  },
   component: Button,
 };
 
@@ -15,7 +31,7 @@ export const Default: StoryFn<ButtonProps> = (args) => <Button {...args} />;
 
 Default.args = {
   variant: 'primary',
-  children: 'Hello World',
+  children: 'Hello Daito',
 };
 
 export const FullWidth: StoryFn<ButtonProps> = (args) => (
@@ -37,7 +53,7 @@ export const Disabled: StoryFn<ButtonProps> = (args) => (
 
 Disabled.args = {
   variant: 'primary',
-  children: 'Hello World',
+  children: 'Hello Daito',
   disabled: true,
 };
 
@@ -49,5 +65,5 @@ export const Danger: StoryFn<ButtonProps> = (args) => (
 
 Danger.args = {
   variant: 'danger',
-  children: 'Hello World',
+  children: 'Hello Daito',
 };

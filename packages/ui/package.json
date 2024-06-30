@@ -9,7 +9,7 @@
     "generate:component": "turbo gen react-component",
     "typecheck": "tsc --project tsconfig.json --noEmit",
     "test": "jest",
-    "test:watch": "yarn test --watch",
+    "test:watch": "pnpm run test --watch",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
@@ -17,6 +17,7 @@
     "@chromatic-com/storybook": "^1.5.0",
     "@daito/eslint-config": "workspace:*",
     "@daito/typescript-config": "workspace:*",
+    "@storybook/addon-a11y": "^8.1.11",
     "@storybook/addon-essentials": "^8.1.11",
     "@storybook/addon-interactions": "^8.1.11",
     "@storybook/addon-links": "^8.1.11",
@@ -50,7 +51,11 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
+    "@radix-ui/react-checkbox": "^1.1.1",
+    "@radix-ui/react-label": "^2.1.0",
     "@radix-ui/react-slot": "^1.1.0",
-    "react": "^18.2.0"
+    "@radix-ui/react-switch": "^1.1.0",
+    "react": "^18.2.0",
+    "react-number-format": "^5.4.0"
   }
 }

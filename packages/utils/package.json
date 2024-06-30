@@ -2,10 +2,7 @@
   "name": "@daito/utils",
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "tsc --watch",
-    "build": "tsc"
-  },
+  "scripts": {},
   "exports": {
     "./helpers": {
       "types": "./src/helpers/index.ts",

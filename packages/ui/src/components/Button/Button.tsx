@@ -10,8 +10,9 @@ const buttonVariants = tv({
       primary: 'bg-primary-500 text-white hover:bg-primary-500/90',
       danger: 'bg-red-500 text-white hover:bg-red-500/90',
       outline:
-        'border border-primary-500 dark:border-white text-primary-500 dark:text-white bg-transparent hover:bg-white hover:text-black',
-      secondary: 'bg-secondary text-secondary-foreground hover:bg-secondary/80',
+        'border border-primary-500 text-primary-500 bg-transparent hover:opacity-80 dark:hover:opacity-90',
+      secondary:
+        'bg-white border text-black hover:opacity-70 dark:hover:opacity-95',
       link: 'text-primary-500 underline-offset-4 hover:underline',
     },
     size: {
