@@ -4,9 +4,9 @@ import { Button } from '@ascendio/ui';
 import { useTheme } from '@ascendio/hooks';
 
 export default function Example() {
-  const { toggle } = useTheme();
+  const { theme, toggle } = useTheme();
   return (
-    <div className="grid h-screen place-items-center">
+    <section className="grid h-screen place-items-center">
       <div
         className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
         aria-hidden="true"
@@ -20,19 +20,45 @@ export default function Example() {
         />
       </div>
       <div className="text-center">
-        <a href="#" className="mx-auto p-1.5">
-          <span className="sr-only">Ascendio</span>
+        {theme === 'dark' ? (
           <img
-            className="h-64 mx-auto"
+            className="h-64 mx-auto mb-16 hidden dark:block"
+            src="https://imgur.com/L8XOtNX.png"
+            alt=""
+          />
+        ) : (
+          <img
+            className="h-64 mx-auto mb-16 block dark:hidden"
             src="https://imgur.com/eIO3XN0.png"
             alt=""
           />
-        </a>
-        <h1 className="text-6xl font-bold tracking-tight text-gray-900 dark:text-white">
-          Ascendio
-        </h1>
+        )}
 
-        <small className="dark:text-gray-300">It's not a framework. </small>
+        <a
+          href="https://docs.ascendio.dev"
+          target="__blank"
+          className="mx-auto"
+        >
+          <span className="sr-only">Ascendio</span>
+
+          {theme === 'dark' ? (
+            <img
+              className="h-8 my-8 mx-auto hidden dark:block"
+              src="https://imgur.com/Gdq88JD.png"
+              alt="Ascendio"
+            />
+          ) : (
+            <img
+              className="h-8 my-8 mx-auto block dark:hidden"
+              src="https://imgur.com/ZU0nrEF.png"
+              alt="Ascendio"
+            />
+          )}
+        </a>
+
+        <small className="dark:text-gray-300">
+          Ascend a turborepo project in seconds
+        </small>
         <p className="mt-6 text-sm leading-6 text-gray-600 dark:text-gray-100">
           It's an automatic, simple and beautiful boilerplate configurator.{' '}
           <br />
@@ -45,7 +71,7 @@ export default function Example() {
             onClick={toggle}
             className="rounded-full bg-black hover:bg-gray-800 border-black ring-black dark:bg-white dark:hover:opacity-90 dark:border-white dark:ring-white dark:text-black"
           >
-            See docs
+            Change Theme
           </Button>
         </div>
         <div
@@ -61,6 +87,6 @@ export default function Example() {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
