@@ -7,8 +7,8 @@
         "name": "next"
       }
     ],
-    "module": "CommonJS",
-    "moduleResolution": "Node"
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext"
   },
   "include": [
     "next-env.d.ts",

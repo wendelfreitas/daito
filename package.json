@@ -1,5 +1,5 @@
 {
-  "name": "daito",
+  "name": "ascendio",
   "private": true,
   "scripts": {
     "build": "turbo build",

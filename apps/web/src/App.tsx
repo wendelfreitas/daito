@@ -1,13 +1,11 @@
-import { useState } from 'react';
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import './App.css';
 import { Button, ThemeProvider } from '@ascendio/ui';
-import { useHelloWorld } from '@ascendio/hooks';
+import { useTheme } from '@ascendio/hooks';
 
 function App() {
-  const name = useHelloWorld();
-  const [count, setCount] = useState(0);
+  const name = useTheme();
   return (
     <ThemeProvider>
       <div className="flex justify-between">
@@ -18,11 +16,9 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>{name}</h1>
+      <h1>{name.theme}</h1>
       <div className="card">
-        <Button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </Button>
+        <Button onClick={() => name.toggle()}>count is </Button>
         <p className="mt-10">
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>

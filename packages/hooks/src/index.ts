@@ -1,1 +1,1 @@
-export * from './use-hello-world/use-hello-world';
+export * from './use-theme/use-theme';
