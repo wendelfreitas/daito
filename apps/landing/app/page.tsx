@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { ThemeProvider, Button } from '@daito/ui';
+import { ThemeProvider, Button } from '@ascendio/ui';
 import styles from './page.module.css';
 
 export default function Home() {

@@ -1,5 +1,5 @@
 {
-  "extends": "@daito/typescript-config/nextjs.json",
+  "extends": "@ascendio/typescript-config/nextjs.json",
   "compilerOptions": {
     "lib": ["dom", "dom.iterable", "esnext"],
     "plugins": [

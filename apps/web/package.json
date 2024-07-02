@@ -1,5 +1,5 @@
 {
-  "name": "@daito/web",
+  "name": "@ascendio/web",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,13 +12,13 @@
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "@daito/ui": "workspace:*",
-    "@daito/hooks": "workspace:*",
-    "@daito/utils": "workspace:*"
+    "@ascendio/ui": "workspace:*",
+    "@ascendio/hooks": "workspace:*",
+    "@ascendio/utils": "workspace:*"
   },
   "devDependencies": {
-    "@daito/eslint-config": "workspace:*",
-    "@daito/typescript-config": "workspace:*",
+    "@ascendio/eslint-config": "workspace:*",
+    "@ascendio/typescript-config": "workspace:*",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^7.13.1",

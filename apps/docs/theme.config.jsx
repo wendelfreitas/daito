@@ -1,5 +1,5 @@
 export default {
-  logo: <span>Daito Docs</span>,
+  logo: <span>Ascendio Docs</span>,
   project: {
     link: 'https://github.com/wendelfreitas/daito',
   },

@@ -1,4 +1,4 @@
-# @daito/cli
+# @ascendio/cli
 
 ## 0.0.0
 

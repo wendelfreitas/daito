@@ -1,5 +1,5 @@
 {
-  "name": "@daito/cli",
+  "name": "@ascendio/cli",
   "version": "0.0.0",
   "description": "An example CLI tool",
   "publishConfig": {
@@ -18,16 +18,11 @@
     "build": "tsup",
     "start": "node dist/index.js",
     "typecheck": "tsc --noEmit",
-    "lint": "eslint src --max-warnings 0",
-    "format:write": "prettier --write .",
-    "format:check": "prettier --check .",
-    "release": "changeset version",
-    "pub:release": "pnpm build && pnpm publish --no-git-checks --access public",
-    "pub:beta": "pnpm build && pnpm publish --no-git-checks --access public --tag beta"
+    "lint": "eslint src --max-warnings 0"
   },
   "devDependencies": {
-    "@daito/eslint-config": "workspace:*",
-    "@daito/typescript-config": "workspace:*",
+    "@ascendio/eslint-config": "workspace:*",
+    "@ascendio/typescript-config": "workspace:*",
     "@types/fs-extra": "^11.0.4",
     "@types/node": "^20.10.6",
     "tsup": "^8.0.1",

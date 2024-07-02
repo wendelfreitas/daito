@@ -1,5 +1,5 @@
 {
-  "name": "@daito/hooks",
+  "name": "@ascendio/hooks",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -11,8 +11,8 @@
     "typecheck": "tsc --project tsconfig.json --noEmit"
   },
   "devDependencies": {
-    "@daito/eslint-config": "workspace:*",
-    "@daito/typescript-config": "workspace:*",
+    "@ascendio/eslint-config": "workspace:*",
+    "@ascendio/typescript-config": "workspace:*",
     "@types/react": "^18.2.61",
     "@types/react-dom": "^18.2.19",
     "eslint": "^8.57.0",

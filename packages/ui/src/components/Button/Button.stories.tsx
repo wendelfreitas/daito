@@ -31,7 +31,7 @@ export const Default: StoryFn<ButtonProps> = (args) => <Button {...args} />;
 
 Default.args = {
   variant: 'primary',
-  children: 'Hello Daito',
+  children: 'Hello Ascendio',
 };
 
 export const FullWidth: StoryFn<ButtonProps> = (args) => (
@@ -53,7 +53,7 @@ export const Disabled: StoryFn<ButtonProps> = (args) => (
 
 Disabled.args = {
   variant: 'primary',
-  children: 'Hello Daito',
+  children: 'Hello Ascendio',
   disabled: true,
 };
 
@@ -65,5 +65,5 @@ export const Danger: StoryFn<ButtonProps> = (args) => (
 
 Danger.args = {
   variant: 'danger',
-  children: 'Hello Daito',
+  children: 'Hello Ascendio',
 };

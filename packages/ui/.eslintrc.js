@@ -5,7 +5,7 @@ module.exports = {
   },
   root: true,
   extends: [
-    '@daito/eslint-config/react-internal.js',
+    '@ascendio/eslint-config/react-internal.js',
     'plugin:storybook/recommended',
   ],
   parser: '@typescript-eslint/parser',

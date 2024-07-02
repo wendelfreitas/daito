@@ -1,5 +1,5 @@
 {
-  "name": "@daito/utils",
+  "name": "@ascendio/utils",
   "version": "0.0.0",
   "type": "module",
   "scripts": {},
@@ -10,8 +10,8 @@
     }
   },
   "devDependencies": {
-    "@daito/typescript-config": "workspace:*",
-    "@daito/eslint-config": "workspace:*",
+    "@ascendio/typescript-config": "workspace:*",
+    "@ascendio/eslint-config": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^7.13.1",
     "@typescript-eslint/parser": "^7.13.1",
     "eslint": "^8.57.0",

@@ -1,4 +1,4 @@
-import { ThemeProvider } from '@daito/ui';
+import { ThemeProvider } from '@ascendio/ui';
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
 import './globals.css';
