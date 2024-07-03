@@ -14,9 +14,9 @@
     "build-storybook": "storybook build"
   },
   "devDependencies": {
-    "@chromatic-com/storybook": "^1.5.0",
     "@ascendio/eslint-config": "workspace:*",
     "@ascendio/typescript-config": "workspace:*",
+    "@chromatic-com/storybook": "^1.5.0",
     "@storybook/addon-a11y": "^8.1.11",
     "@storybook/addon-essentials": "^8.1.11",
     "@storybook/addon-interactions": "^8.1.11",
@@ -55,6 +55,7 @@
     "@radix-ui/react-label": "^2.1.0",
     "@radix-ui/react-slot": "^1.1.0",
     "@radix-ui/react-switch": "^1.1.0",
+    "lucide-react": "^0.400.0",
     "react": "^18.2.0",
     "react-number-format": "^5.4.0"
   }
