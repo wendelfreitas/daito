@@ -21,7 +21,7 @@ export const Default: StoryFn = () => {
         id="super-saiyan-mode"
         aria-label="Super Saiyan mode"
       />
-      <Label htmlFor="super-saiyan-mode">Super Saiyan mode</Label>
+      <Label htmlFor="super-saiyan-mode">Super Saiyan</Label>
     </div>
   );
 };

@@ -24,6 +24,7 @@ export const withMask: StoryFn = () => (
       id="birthdate"
       placeholder="Date of Birth"
       format="####/##/##"
+      mask="_"
       defaultValue="1997/12/13"
     />
   </div>
