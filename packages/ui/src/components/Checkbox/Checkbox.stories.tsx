@@ -16,7 +16,7 @@ export const Default: StoryFn = () => (
       <label
         htmlFor="terms1"
         aria-label="Accept terms and conditions"
-        className="text-sm font-medium leading-none dark:text-white peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+        className="text-sm font-medium leading-none text-foreground peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
       >
         Accept terms and conditions
       </label>
