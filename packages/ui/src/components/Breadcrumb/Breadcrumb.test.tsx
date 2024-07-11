@@ -10,7 +10,7 @@ import {
 } from './Breadcrumb';
 
 describe('<Breadcrumb />', () => {
-  it('renders component successfully', () => {
+  it('should render component successfully', () => {
     render(
       <Breadcrumb>
         <BreadcrumbList>

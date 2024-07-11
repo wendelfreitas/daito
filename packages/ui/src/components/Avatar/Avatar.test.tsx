@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react';
 import { Avatar, AvatarFallback, AvatarImage } from './Avatar';
 
 describe('<Avatar />', () => {
-  it('renders component successfully', () => {
+  it('should render component successfully', () => {
     render(
       <Avatar>
         <AvatarImage src="https://github.com/shadcn.png" />

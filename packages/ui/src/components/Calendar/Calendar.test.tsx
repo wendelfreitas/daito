@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react';
 import { Calendar } from './Calendar';
 
 describe('<Calendar />', () => {
-  it('renders component successfully', () => {
+  it('should render component successfully', () => {
     render(
       <Calendar
         selected={new Date(2023, 5, 5)}

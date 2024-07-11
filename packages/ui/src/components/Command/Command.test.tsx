@@ -25,7 +25,7 @@ import { DialogDescription, DialogTitle } from '../Dialog/Dialog';
 window.HTMLElement.prototype.scrollIntoView = function () {};
 
 describe('<Command />', () => {
-  it('renders component successfully', () => {
+  it('should render component successfully', () => {
     render(
       <Command className="rounded-lg border shadow-md">
         <CommandInput placeholder="Type a command or search..." />

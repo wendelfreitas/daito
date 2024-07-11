@@ -11,7 +11,7 @@ import {
 } from './Dialog';
 
 describe('<Dialog />', () => {
-  it('renders component successfully', () => {
+  it('should render component successfully', () => {
     render(
       <Dialog>
         <DialogTrigger>Open</DialogTrigger>

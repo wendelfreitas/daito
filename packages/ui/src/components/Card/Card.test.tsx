@@ -9,7 +9,7 @@ import {
 } from './Card';
 
 describe('<Card />', () => {
-  it('renders component successfully', () => {
+  it('should render component successfully', () => {
     render(
       <Card>
         <CardHeader>

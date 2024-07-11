@@ -7,7 +7,7 @@ import {
 } from './Collapsible';
 
 describe('<Collapsible />', () => {
-  it('renders component successfully', () => {
+  it('should render component successfully', () => {
     render(
       <Collapsible>
         <CollapsibleTrigger>Can I use this in my project?</CollapsibleTrigger>

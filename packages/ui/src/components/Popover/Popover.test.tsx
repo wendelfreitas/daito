@@ -3,7 +3,7 @@ import { fireEvent } from '@testing-library/react';
 import { Popover, PopoverContent, PopoverTrigger } from './Popover';
 
 describe('<Popover />', () => {
-  it('renders component successfully', () => {
+  it('should render component successfully', () => {
     render(
       <Popover>
         <PopoverTrigger>Open</PopoverTrigger>

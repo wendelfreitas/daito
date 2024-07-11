@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react';
 import { Badge } from './Badge';
 
 describe('<Badge />', () => {
-  it('renders component successfully', () => {
+  it('should render component successfully', () => {
     render(<Badge>Badge</Badge>);
 
     const badge = screen.getByText('Badge');
