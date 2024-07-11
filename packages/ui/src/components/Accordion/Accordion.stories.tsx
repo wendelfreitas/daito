@@ -8,6 +8,7 @@ import {
 
 const meta: Meta = {
   title: 'Components/Accordion',
+  tags: ['autodocs'],
   component: Accordion,
 };
 
