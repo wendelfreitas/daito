@@ -5,12 +5,28 @@ describe('<Calendar />', () => {
   it('renders component successfully', () => {
     render(
       <Calendar
-        selected={new Date('2023-05-05')}
-        month={new Date('2023-05-05')}
+        selected={new Date(2023, 5, 5)}
+        month={new Date(2023, 5, 5)}
         mode="single"
       />
     );
-    const text = screen.getByText('May 2023');
+    const text = screen.getByText('June 2023');
+
+    expect(text).toBeInTheDocument();
+  });
+
+  it('should renders component successfully with mode range', () => {
+    render(
+      <Calendar
+        selected={{
+          from: new Date(2023, 5, 5),
+          to: new Date(2023, 5, 10),
+        }}
+        month={new Date(2023, 5, 5)}
+        mode="range"
+      />
+    );
+    const text = screen.getByText('June 2023');
 
     expect(text).toBeInTheDocument();
   });
