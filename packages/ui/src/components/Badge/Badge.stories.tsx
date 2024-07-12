@@ -2,7 +2,7 @@ import { StoryFn, Meta } from '@storybook/react';
 import { Badge, BadgeProps } from './Badge';
 
 const meta: Meta = {
-  title: 'Components/Badge',
+  title: 'shadcn-ui/Badge',
   tags: ['autodocs'],
   component: Badge,
 };

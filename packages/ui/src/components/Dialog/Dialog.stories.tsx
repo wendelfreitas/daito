@@ -10,7 +10,7 @@ import {
 } from './Dialog';
 
 const meta: Meta = {
-  title: 'Components/Dialog',
+  title: 'shadcn-ui/Dialog',
   tags: ['autodocs'],
   component: Dialog,
 };

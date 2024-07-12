@@ -22,7 +22,7 @@ import {
 } from './Command';
 
 const meta: Meta = {
-  title: 'Components/Command',
+  title: 'shadcn-ui/Command',
   tags: ['autodocs'],
   component: Command,
 };

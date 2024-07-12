@@ -3,7 +3,7 @@ import { StoryFn, Meta } from '@storybook/react';
 import { Popover, PopoverContent, PopoverTrigger } from './Popover';
 
 const meta: Meta = {
-  title: 'Components/Popover',
+  title: 'shadcn-ui/Popover',
   tags: ['autodocs'],
   component: Popover,
 };

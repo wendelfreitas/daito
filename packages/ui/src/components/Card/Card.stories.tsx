@@ -10,7 +10,7 @@ import {
 } from './Card';
 
 const meta: Meta = {
-  title: 'Components/Card',
+  title: 'shadcn-ui/Card',
   tags: ['autodocs'],
   component: Card,
 };

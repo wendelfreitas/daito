@@ -4,7 +4,7 @@ import { StoryFn, Meta } from '@storybook/react';
 import { Calendar } from './Calendar';
 
 const meta: Meta = {
-  title: 'Components/Calendar',
+  title: 'shadcn-ui/Calendar',
   tags: ['autodocs'],
   component: Calendar,
 };

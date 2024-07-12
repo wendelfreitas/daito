@@ -9,7 +9,7 @@ import {
 } from './Breadcrumb';
 
 const meta: Meta = {
-  title: 'Components/Breadcrumb',
+  title: 'shadcn-ui/Breadcrumb',
   tags: ['autodocs'],
   component: Breadcrumb,
 };

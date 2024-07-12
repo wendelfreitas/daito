@@ -8,7 +8,7 @@ import {
 import { ChevronsUpDown } from 'lucide-react';
 
 const meta: Meta = {
-  title: 'Components/Collapsible',
+  title: 'shadcn-ui/Collapsible',
   tags: ['autodocs'],
   component: Collapsible,
 };

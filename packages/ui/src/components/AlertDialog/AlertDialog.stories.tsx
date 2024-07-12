@@ -12,7 +12,7 @@ import {
 } from './AlertDialog';
 
 const meta: Meta = {
-  title: 'Components/AlertDialog',
+  title: 'shadcn-ui/AlertDialog',
   tags: ['autodocs'],
   component: AlertDialog,
 };

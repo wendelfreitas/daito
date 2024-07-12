@@ -2,7 +2,7 @@ import { StoryFn, Meta } from '@storybook/react';
 import { Avatar, AvatarFallback, AvatarImage } from './Avatar';
 
 const meta: Meta = {
-  title: 'Components/Avatar',
+  title: 'shadcn-ui/Avatar',
   tags: ['autodocs'],
   component: Avatar,
 };

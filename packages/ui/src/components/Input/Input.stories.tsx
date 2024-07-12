@@ -2,7 +2,7 @@ import { StoryFn, Meta } from '@storybook/react';
 import { Input, InputMask } from './Input';
 
 const meta: Meta = {
-  title: 'Components/Input',
+  title: 'shadcn-ui/Input',
   component: Input,
 };
 
