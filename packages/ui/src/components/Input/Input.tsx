@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { PatternFormat, PatternFormatProps } from 'react-number-format';
 import { tv } from 'tailwind-variants';
-import { cn } from '../../lib/utils';
+import { cn } from '@ascendio/utils/helpers';
 export interface InputProps
   extends React.InputHTMLAttributes<HTMLInputElement> {}
 
