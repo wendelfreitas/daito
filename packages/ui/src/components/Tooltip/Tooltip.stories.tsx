@@ -27,7 +27,7 @@ export const Default: StoryFn = () => {
   );
 };
 
-export const withArrow: StoryFn = () => {
+export const WithArrow: StoryFn = () => {
   return (
     <TooltipProvider>
       <Tooltip>
